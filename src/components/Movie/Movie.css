@@ -1,0 +1,147 @@
+
+.movie-detail-all{
+    width: 800px;
+    height: 580px;
+    /* justify-content: center; */
+    /* display: flex; */
+    background-color: #fff;
+    margin-left: auto;
+    margin-right: auto;
+  
+    border-radius: 15px;
+  
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+  
+  
+    transform: rotate(-2deg);
+  
+  
+    margin-top: 110px;
+  }
+  
+  .movie-detail{
+    background-color: #fff;
+    width: 800px;
+    height: 580px;
+    /* justify-content: center; */
+    /* display: flex; */
+  
+    margin-left: auto;
+    margin-right: auto;
+  
+    border-radius: 15px;
+  
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+  
+    transform: rotate(2deg);
+  }
+  
+  .movie-detail-all-two{
+    height: 580px;
+    /* background-color: red; */
+    justify-content: center;
+  
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  
+  
+  
+  .img-details{
+    width: 360px;
+    height: 490px;
+  
+    margin-left: 30px;
+    margin-top: 60px;
+  
+    border-radius: 12px;
+  
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+  
+  }
+  
+  
+  .detail-h1{
+    position: absolute;
+  
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+  
+  
+    margin-left: 25px;
+    /* margin-top: 112px; */
+    /* background-color: aqua; */
+    width: 150px;
+    height: 50px;
+  }
+  
+  
+  
+  .h1-title{
+    /* background-color: rebeccapurple; */
+    width: 350px;
+    margin-left: 20px;
+    margin-top: -495px;
+  
+    font-family: 'Montserrat', sans-serif;
+    font-size: 23px;
+  
+    
+  }
+  
+  
+  .h3-año{
+    width: 350px;
+    margin-left: 20px;
+    margin-top: 50px;
+  
+    font-family: 'Montserrat', sans-serif;
+    font-size: 23px;
+  }
+  
+  .h3-actores{
+    width: 350px;
+    margin-left: 20px;
+    margin-top: 50px;
+  
+    font-family: 'Montserrat', sans-serif;
+    font-size: 23px;
+  
+  }
+  
+  .h3-premios{
+    width: 350px;
+    margin-left: 20px;
+    margin-top: 50px;
+  
+    font-family: 'Montserrat', sans-serif;
+    font-size: 23px;
+  }
+  
+  
+  
+  .details-all{
+    background-color: rgba(117, 117, 117, 0.171);
+  
+    width: 360px;
+    height: 490px;
+    
+    border-radius: 12px;
+  
+    margin-left: 430px;
+    /* margin-top: -210px; */
+  
+  
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+  
+    transition: 1s;
+  }
+  
+  
+  
+  .details-all:hover{
+      
+    background-color: #80201523;
+  }
