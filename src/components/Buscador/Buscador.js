@@ -19,6 +19,10 @@ export class Buscador extends Component {
     }
     handleSubmit(event) {
         event.preventDefault();
+        if (this.state.title.length < 2) {
+            alert("Esa pelicula no se encuentra")
+            return
+        }
         this.props.getMovies(this.state.title)
     }
 
@@ -43,7 +47,7 @@ export class Buscador extends Component {
                 </form>
                 <ul className="ul-movie">
                     {/* Aqui tienes que escribir tu codigo para mostrar la lista de peliculas */
-                        this.props.movies.map((movie) =>
+                        this.props.movies === undefined ? null : this.props.movies.map((movie) =>
                             <div key={movie.imdbID} className='pelicula'>
                                 <div className="second-pelicula">
                                     <Link to={`/movie/${movie.imdbID}`} className='pelicula-title'> {movie.Title} </Link>
